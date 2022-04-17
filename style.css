@@ -1,0 +1,98 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+  
+  .masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-1209679043.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  
+  header.masthead h1 {
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  .features-icons {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .card {
+    margin-top: 1rem;
+    border: none;
+  }
+  
+  .container .flag-img {
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+  }
+  .container h2 {
+    font-weight: 600;
+    color: #1f6372;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+  }
+  .data-wrapper {
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+  }
+  .container h4 {
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+  }
+  .container span {
+    color: #5d6274;
+  }
+  .container h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #ffc118;
+  }
+  
+  
+  footer.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
